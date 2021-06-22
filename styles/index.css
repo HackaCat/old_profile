@@ -1,0 +1,46 @@
+body {
+    font-size: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.wrap{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+
+.wrap .greeting {
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+
+.greeting .top{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+.cert-note{
+    font-size: .75em;
+padding-bottom: 20px;
+}
+
+.certs > .middle{
+    font-size: .9em;
+}
+
+.projects > .middle {
+    padding-bottom: 20px;
+}
+
+.certs > .top, .projects > .top {
+    font-size: 1.25em;
+}
