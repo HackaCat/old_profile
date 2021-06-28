@@ -1,7 +1,8 @@
 body {
     font-size: 1.25em;
     font-family: 'Montserrat', sans-serif;
-
+    background-color: #282a36;
+    color: #f8f8f2;
 }
 
 .wrap{
@@ -21,6 +22,10 @@ body {
     overflow: auto;
 }
 
+.top{
+    color: #6272a4
+}
+
 
 .greeting .top{
     font-family: 'Roboto Mono', monospace;
@@ -31,6 +36,11 @@ body {
 .cert-note{
     font-size: .75em;
 padding-bottom: 20px;
+}
+
+.certs a {
+    color: #f8f8f2;
+    text-decoration: none;
 }
 
 .certs > .middle{
